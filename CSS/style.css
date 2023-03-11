@@ -37,6 +37,15 @@ img {
     background-color: rgb(188, 158, 106);
     padding: 2.344vw 2.344vw;
     margin: 0 auto;
+    cursor: pointer;
+}
+
+.bayan-inner:hover .bayan-suptitle{
+    color: #fff;
+}
+
+.bayan-inner:hover .fa-solid{
+    font-size: 1.823vw;
 }
 
 .bayan-items{
@@ -65,6 +74,7 @@ img {
 .bayan-suptitle{
     font-family: 'Signika Negative', sans-serif;
     font-size: 2.865vw;
+    transition: .3s ease-in-out;
 }
 
 .bayan-pics{
@@ -74,13 +84,18 @@ img {
 }
 
 .fa-solid{
-   font-size: 1.823vw;
+    color: #fff;
+   font-size: 0;
    transition: .3s ease;
 }
 
 .bayan-input:checked ~ .bayan-pics{
     width: 28.229vw;
     padding: 1.823vw 0;
+}
+
+.bayan-input:checked ~ label h2{
+    color: #fff;
 }
 
 .bayan-input:checked ~ label i{
