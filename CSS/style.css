@@ -160,6 +160,33 @@ img {
 
     /* Bayan */
     
+    .bayan-title{
+        font-size: 9.297vw;
+        border-bottom: 1vw solid rgb(173, 172, 172);
+    }
+
+    .bayan-suptitle{
+        font-size: 6.8vw;
+    }
+    
+    .bayan-inner:hover .fa-solid {
+        font-size: 5.823vw;
+    }
+
+    .bayan-input:checked ~ label .bayan-pics {
+        width: 50.229vw;
+        padding: 2.823vw 0;
+    }
+
+    .bayan-items {
+        border-bottom: 0.9vw solid rgb(173, 172, 172);
+    }
+
+    /* Main */
+
+    .main-wrapper {
+        padding: 4.604vw 0 4.604vw;
+    }
 
 
 }
